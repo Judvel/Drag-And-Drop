@@ -1,0 +1,24 @@
+{
+  "name": "drag-and-drop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Judvel/Drag-And-Drop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Judvel/Drag-And-Drop/issues"
+  },
+  "homepage": "https://github.com/Judvel/Drag-And-Drop#readme",
+  "dependencies": {
+    "fetch-node": "^0.0.1",
+    "node-fetch": "^3.2.10"
+  }
+}

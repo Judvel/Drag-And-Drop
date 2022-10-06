@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drag And Drop Page</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>Drag and Drop Store</h1>
+        </header>
+        <main>
+            <section class="main-product-container" id="productapi">
+                
+            </section>
+            <button id="more-items">Mostrar mas</button>
+            <section class="main-product-container" id="myproducts">
+                <div class="main-product--empty-list" id="empty-list">
+                    <img src="./img/cart-is-empty.png" alt="">
+                    <h2>Tu lista esta vacia :(</h2>
+                </div>
+            </section>
+            <section class="main-enter-container">
+                <div class="main-enter--title">
+                    <img src="./img/3440911_add_bag_basket_cart_ecommerce_icon.png" alt="">
+                    <h2>Agrega tu producto</h2>
+                </div>
+                <form action="">
+                    <input type="text" id="product-name" placeholder="Ingrese el nombre del producto" required>
+                    <input type="number" id="produc-price" placeholder="Ingrese el precio del producto" required>
+                    <input type="submit" id="button-product" value="Ingresar Producto">
+                </form>
+                <button id="clear-list">Limpiar lista</button>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Julio Diaz Velasquez</p>
+            <ul class="footer--social-media">
+                <li><a href="https://www.linkedin.com/in/julio-diaz-ice/">Linkedin</a></li>
+                <li><a href="https://github.com/Judvel">GitHub</a></li>
+                <li><a href="juliodiazvelasquez96@gmail.com">Gmail</a></li>
+            </ul>
+        </footer>
+        <script src="./assets/product-api.js"></script>
+        <script src="./assets/main.js"></script>
+    </body>
+    </html>
